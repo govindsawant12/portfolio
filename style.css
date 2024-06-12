@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+}
+main {
+  height: 100%;
+  width: 100%
+}
+/* header section */
+header {
+  color: white;
+  background-color: black;
+  max-height: 95px;
+  width: 100%;
+  text-align: center;
+  padding: 15px 15px;
+  line-height: 25px;
+}
+nav {
+  margin-top: 5px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+/* main section */
+/* home section */
+#home {
+  color: white;
+  background-color: rgb(185, 24, 158);
+  height: 255px;
+  width: 100%;
+  text-align: center;
+  padding: 70px 0px ;
+  line-height: 35px;
+}
+#home button{
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+}
+#home button:hover{
+ background-color: rgb(228, 215, 215);
+}
+/* about section */
+#about {
+  color: white;
+  background-color: red;
+  height: 255px;
+  width: 100%;
+  text-align: center;
+  padding: 70px 0px ;
+  line-height: 35px;
+}
+/* services section */
+#services-section {
+  color: white;
+  background-color: rgb(129, 221, 239);
+  height: 305px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0px ;
+  line-height: 35px; 
+}
+#services-section h1{
+  display: block;
+  margin-bottom: 15px;
+}
+#services-section .services {
+  padding: 10px 10px;
+  background-color: rgb(33, 230, 102);
+  border: 1px solid black;
+  height: 100px;
+  width: 170px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+#services-section .services p {
+  line-height: 15px;
+  font-size: 13px;
+}
+#services-section .services:hover {
+  cursor: pointer;
+  background-color: rgb(2, 37, 37) ;
+}
+#container-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+#container-2 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+/* portfolio section */
+#portfolio {
+  background-color: seagreen;
+  padding: 30px 10px;
+}
+#portfolio h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.project {
+  background-color: black;
+  color: white;
+  padding: 25px 40px;
+}
+.project:hover {
+  cursor: pointer;
+  background-color: rgb(54, 53, 53);
+}
+/* contact section */
+#contact {
+  padding: 10px 10px;
+  color: white;
+  background-color: rgb(203, 160, 122);
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact p {
+  margin: 10px 10px;
+}
+#contact .name-input,
+.email-input ,
+textarea{
+  display: block;
+  padding: 1vh;
+  border-radius: 5px;
+  border: none;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+.name-input:focus,
+.email-input:focus ,
+textarea:focus{
+  color: green;
+  outline:rgb(78, 78, 78) solid 2px ;
+}
+textarea {
+  height: 70px;
+}
+#contact button {
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  background-color: purple;
+  padding: 6px 12px;
+}
+#contact button:hover {
+  background-color: rgb(183, 39, 183);
+}
+/* footer section */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background-color: black;
+  color: white;
+}
